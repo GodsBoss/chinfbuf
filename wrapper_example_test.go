@@ -37,6 +37,9 @@ func newIntWrapper() (chan<- int, <-chan int) {
 	return intInput, intOutput
 }
 
+// For more type safety, it is advisable to create a wrapper which converts the
+// interface{} values going into and coming from the channel to more specific
+// types.
 func Example_typedWrapper() {
 	input, output := newIntWrapper()
 
