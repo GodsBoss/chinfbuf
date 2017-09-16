@@ -1,3 +1,7 @@
+// Package chinfbuf provides channel-like semantics, but with an infinite
+// capacity. It provides a single function, New(), creating a connected pair of
+// an input and an output channel. Both ends together behave like a normal
+// channel.
 package chinfbuf
 
 // New creates a pair of an input and an output channel which are connected and
