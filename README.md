@@ -6,4 +6,4 @@ chinfbuf
 [![Code Climate](https://codeclimate.com/github/GodsBoss/chinfbuf/badges/gpa.svg)](https://codeclimate.com/github/GodsBoss/chinfbuf)
 [![CircleCI](https://circleci.com/gh/GodsBoss/chinfbuf/tree/master.svg?style=svg)](https://circleci.com/gh/GodsBoss/chinfbuf/tree/master)
 
-chinfbuf is a Go library for buffered channels with an infinite capacity.
+chinfbuf is a Go library for buffered channels with an infinite capacity. For more information and examples, read the [documentation](https://godoc.org/github.com/GodsBoss/chinfbuf).
