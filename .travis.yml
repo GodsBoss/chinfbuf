@@ -1,0 +1,9 @@
+language: go
+
+go:
+  - 1.9.x
+
+install: true
+
+script:
+  - go test -v -cover ./...
