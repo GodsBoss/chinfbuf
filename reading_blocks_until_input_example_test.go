@@ -7,6 +7,8 @@ import (
 	"time"
 )
 
+// Reading from the output channel blocks if there is no more input from the
+// input channel yet.
 func Example_readingBlocksUntilThereIsInput() {
 	input, output := chinfbuf.New()
 
